@@ -1,0 +1,65 @@
+/* Impact Page Specifics */
+.impact-header {
+    background-color: var(--primary-green);
+    color: white;
+    text-align: center;
+    padding: 100px 5%;
+}
+
+.lead {
+    font-style: italic;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.project-card {
+    background: white;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    display: flex; /* Could be flex-direction: column for mobile */
+    border: 1px solid #eee;
+}
+
+.project-content {
+    padding: 40px;
+}
+
+.tag {
+    background: #e8f5e9;
+    color: var(--primary-green);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.stats {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    color: var(--accent-green);
+    font-size: 1.1rem;
+}
+
+.cta-section {
+    background: var(--light-bg);
+    text-align: center;
+    padding: 60px 10%;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Mobile Responsive adjustment */
+@media (max-width: 768px) {
+    .hero-content h1 { font-size: 2.2rem; }
+    .project-card { flex-direction: column; }
+}
