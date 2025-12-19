@@ -30,4 +30,4 @@ Based in Dhaka, Bangladesh.
 I am passionate about using my technical skills to amplify social causes. When I'm not coding, I'm likely traveling with my camera or documenting stories that matter.
 
 ---
-*Developed with ❤️ by [zuhasite]*
+*Developed with ❤️ by [ZwSite Org Bangladesh](https://github.com/zuhasite)*
