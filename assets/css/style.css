@@ -1,65 +1,73 @@
-/* Impact Page Specifics */
-.impact-header {
-    background-color: var(--primary-green);
-    color: white;
-    text-align: center;
-    padding: 100px 5%;
+:root {
+    --primary-green: #2d5a27;
+    --accent-green: #4CAF50;
+    --dark-text: #333;
+    --light-bg: #f9f9f9;
 }
 
-.lead {
-    font-style: italic;
-    font-size: 1.2rem;
-    opacity: 0.9;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: var(--dark-text);
+    line-height: 1.6;
 }
 
-.project-card {
-    background: white;
-    margin-bottom: 40px;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    display: flex; /* Could be flex-direction: column for mobile */
-    border: 1px solid #eee;
+header {
+    background: #fff;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.project-content {
-    padding: 40px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.tag {
-    background: #e8f5e9;
-    color: var(--primary-green);
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
+.logo {
+    font-size: 1.5rem;
     font-weight: bold;
-    text-transform: uppercase;
+    color: var(--primary-green);
 }
 
-.stats {
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 1px solid #eee;
-    color: var(--accent-green);
-    font-size: 1.1rem;
-}
+.logo span { font-weight: 300; }
 
-.cta-section {
-    background: var(--light-bg);
+nav ul { list-style: none; display: flex; }
+nav ul li { margin-left: 20px; }
+nav ul li a { text-decoration: none; color: var(--dark-text); font-weight: 500; }
+nav ul li a.active { color: var(--accent-green); border-bottom: 2px solid var(--accent-green); }
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 60px 10%;
-}
-
-footer {
-    text-align: center;
-    padding: 40px;
-    background: #333;
     color: white;
-    font-size: 0.9rem;
 }
 
-/* Mobile Responsive adjustment */
-@media (max-width: 768px) {
-    .hero-content h1 { font-size: 2.2rem; }
-    .project-card { flex-direction: column; }
+.hero-content h1 { font-size: 3.5rem; margin-bottom: 10px; }
+
+.container { padding: 50px 10%; max-width: 800px; margin: auto; }
+
+.btn {
+    background: var(--accent-green);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
