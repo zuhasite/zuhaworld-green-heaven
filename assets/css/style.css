@@ -71,6 +71,7 @@ nav ul li a.active { color: var(--accent-green); border-bottom: 2px solid var(--
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+
 /* Impact & Gallery Styles */
 .impact-section { background: var(--light-bg); text-align: center; padding: 80px 10%; }
 .subtitle { color: var(--accent-green); text-transform: uppercase; letter-spacing: 2px; font-weight: bold; }
@@ -112,6 +113,7 @@ nav ul li a.active { color: var(--accent-green); border-bottom: 2px solid var(--
     font-weight: bold;
     font-size: 0.9rem;
 }
+
 /* Impact Page Specifics */
 .impact-header {
     background-color: var(--primary-green);
