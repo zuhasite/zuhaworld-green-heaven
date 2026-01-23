@@ -21,6 +21,7 @@ As a developer-led project, the site is built with a focus on performance and cl
 - `index.html`: The gateway featuring our hero mission and photography gallery.
 - `about.html`: Insights into my journey as a developer, writer, and CEO.
 - `impact.html`: Dedicated showcase of ZuhaWorld Social Impact projects.
+- `contact.html`: Contact page of ZuhaWorld Green Heaven.
 - `script.js`: The "engine" that handles dynamic blog post injection.
 - `style.css`: Custom "Green Heaven" design system.
 
