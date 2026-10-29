@@ -1,5 +1,6 @@
 # ZuhaWorld Green Heaven 🌿
 You can [preview after applying this theme what it looks like](https://zuhasite.github.io/zuhaworld-green-heaven).
+![Preview of ZuhaWorld Green Heaven](preview.png)
 
 **"Live the World You Imagine"**
 
