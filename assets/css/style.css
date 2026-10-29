@@ -40,7 +40,7 @@ nav ul li a.active { color: var(--accent-green); border-bottom: 2px solid var(--
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://raw.githubusercontent.com/zuhasite/zuhaworld-green-heaven/refs/heads/main/assets/images/zuhaworld-green-heaven-hero-image.jpg') center/cover;
+                url('https://zuha.site/images/zuhaworld-green-heaven-hero-image.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
